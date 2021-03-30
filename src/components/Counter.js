@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-import { decrement, increment, login, logout } from "../redux/actions";
+import { decrement, increment, login, logout } from "../redux/slices";
+// import { decrement, increment, login, logout } from "../redux/actions";
 
 const mapStateToProps = (state) => {
   return {

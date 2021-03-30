@@ -2,18 +2,25 @@
 // store.dispatch({ type: "increment" });
 // store.dispatch({ type: "decrement" });
 
-export function increment(payload) {
-  return { type: "increment", payload };
-}
+import { createAction } from "@reduxjs/toolkit";
 
-export function decrement(payload) {
-  return { type: "decrement", payload };
-}
+export const increment = createAction("increment");
+export const decrement = createAction("decrement");
+export const login = createAction("login");
+export const logout = createAction("logout");
 
-export function login() {
-  return { type: "login" };
-}
+// export function increment(payload) {
+//   return { type: "increment", payload };
+// }
 
-export function logout() {
-  return { type: "logout" };
-}
+// export function decrement(payload) {
+//   return { type: "decrement", payload };
+// }
+
+// export function login() {
+//   return { type: "login" };
+// }
+
+// export function logout() {
+//   return { type: "logout" };
+// }
