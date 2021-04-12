@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Learn what is Redux? and How to use it in React JS
+
+This repository contains code for tutorial series on React Redux Tutorials for beginners.
+
+If you want to learn more about the Redux please follow below tutorial:
+
+https://youtube.com/playlist?list=PLjxZxD6BDkeYHNuoy6nX2KS4468C2neHS
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
